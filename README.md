@@ -22,3 +22,5 @@ Points to keep in mind:-
   4) Different methods will have diffrent threshold valuse. For example- with cv.TM_CCOEFF, 0.9 means a 90% match while with cv.TM_SQDIFF 0.1 means a 90% match. So be careful
   5) If your object is moving to fast then you will need higher fps for counting method to work properly
   6) Use MSS for screenshot as it is faster than Win32 API 
+<br>
+You can use this code for different purposes. I've attached a few exampls as well (i could not get a good fps in "Example2" because my system is not powerful enough, so its not perfect. But if you have a powerful Device it would work perfectly fine for you)
