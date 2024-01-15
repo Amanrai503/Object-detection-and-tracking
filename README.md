@@ -15,7 +15,7 @@ while True:
 </code></pre>
 pyautogui.position() in a while loop see different position on the screen
 
-Points to keep in mind:-
+Points to keep in mind: -
   1) make sure that bothe the `needle` image and `haystack` image have same channels. What i mean is RGB has 3 channels similaryl RGBA has and grayscale has only one
   2) mone channels means more data to process with results in lowere fps so if you have a low-end device, make sure to change the images to grayscale.
   3) There are different methods of Template Matching. You can play arround and find out which works best for you.  Link of openCV Template Matching methods- https://docs.opencv.org/4.2.0/d4/dc6/tutorial_py_template_matching.html
